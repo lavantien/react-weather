@@ -1,6 +1,6 @@
 # React + Vite + Tailwind
 
-## Project Name: Simple Weather and Star War Listing Web App
+## Simple Weather and Star War Listing Web App
 
 **Description**
 
@@ -8,13 +8,14 @@ This web application leverages Vite, ReactJS, and Tailwind CSS to deliver three 
 
 1. **Navigation Menu:** Seamlessly switch between Todo List, Weather Forecast, and Star Wars Character Search pages.
 2. **Todo List:** Manage your tasks efficiently. Add, edit, remove, and mark items as complete.
-3. **Weather Forecast:** Access real-time weather data for the next 7 days in a chosen city. Utilizes the Open-Meteo API (no API key required!).
+3. **Weather Forecast:** Access real-time weather data for the chosen city. Utilizes the WttrIn API (no API key required!).
 4. **Star Wars Character Search:** Discover characters from the Star Wars universe via the SWAPI API. Search and filter characters directly on the screen.
 5. **Dockerized Deployment:** Deploy the application easily in containerized environments using Docker.
 
 **Getting Started**
 
 1. **Prerequisites:**
+
    - Node.js
    - npm (bundled with Node.js installation)
    - Docker
@@ -40,7 +41,7 @@ This web application leverages Vite, ReactJS, and Tailwind CSS to deliver three 
    npm run dev
    ```
 
-   This opens the application in your default browser (usually http://localhost:3000/).
+   This opens the application in your default browser <http://localhost:3000/>.
 
 **Run Build**
 
@@ -70,7 +71,7 @@ This exposes port 8080 on your host machine, mapping it to port 3000 inside the 
 
 **API**
 
-- The weather forecast utilizes the Open-Meteo API: [https://open-meteo.com/en/docs](https://open-meteo.com/en/docs) (no API key required).
+- The weather forecast utilizes the WttrIn JSON API: <https://github.com/chubin/wttr.in?tab=readme-ov-file#json-output>
 
 **Testing**
 
