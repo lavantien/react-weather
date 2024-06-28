@@ -1,4 +1,4 @@
-const App = () => {
+export default function App() {
     const list = ['a', 'b', 'c', 'd', 'e']
 
     return (
@@ -12,4 +12,3 @@ const App = () => {
         </>
     )
 }
-export default App
