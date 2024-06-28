@@ -1,6 +1,8 @@
 # React + Vite + Tailwind
 
-## Simple Weather and Star War Listing Web App
+## Simple Todo, Weather and Star War Listing Web App
+
+![demo](./assets/react-weather-demo.gif)
 
 **Description**
 
@@ -58,13 +60,13 @@ The build artifacts will be placed in the `dist` folder.
 For containerized deployment, Docker is recommended. Build the Docker image:
 
 ```bash
-docker build -t [your-image-name] .
+docker build -t react-weather .
 ```
 
 **Run the Application in Docker:**
 
 ```bash
-docker run -p 8080:3000 [your-image-name]
+docker run -p 8080:80 react-weather
 ```
 
 This exposes port 8080 on your host machine, mapping it to port 3000 inside the container. Access the application at http://localhost:8080/.
@@ -72,14 +74,6 @@ This exposes port 8080 on your host machine, mapping it to port 3000 inside the 
 **API**
 
 - The weather forecast utilizes the WttrIn JSON API: <https://github.com/chubin/wttr.in?tab=readme-ov-file#json-output>
-
-**Testing**
-
-The project employs Jest for unit testing. To run the tests:
-
-```bash
-npm test
-```
 
 We recommend writing comprehensive tests for components, functions, and API interactions to ensure code quality and maintainability.
 
@@ -100,6 +94,7 @@ Deploy the production build (in the `dist` folder) to your preferred hosting pro
 
 **Further Enhancements**
 
+- Add tests.
 - Implement user authentication and data persistence.
 - Add visual appeal and interactive elements using UI libraries.
 - Enhance error handling and user feedback.
