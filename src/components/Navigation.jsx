@@ -1,4 +1,3 @@
-import PropTypes from "prop-types"; // Import PropTypes for validation
 import { Link, NavLink } from "react-router-dom";
 
 function Navigation({ currentPage, onPageChange }) {
@@ -48,10 +47,5 @@ function Navigation({ currentPage, onPageChange }) {
     </nav>
   );
 }
-
-Navigation.propTypes = {
-  currentPage: PropTypes.string.isRequired,
-  onPageChange: PropTypes.func.isRequired,
-};
 
 export default Navigation;

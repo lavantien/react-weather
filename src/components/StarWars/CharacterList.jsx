@@ -1,5 +1,3 @@
-import PropTypes from "prop-types";
-
 function CharacterList({ characters }) {
   if (!characters || characters.length === 0) {
     return <p>No characters found. Try a different search term.</p>;
@@ -15,9 +13,5 @@ function CharacterList({ characters }) {
     </ul>
   );
 }
-
-CharacterList.propTypes = {
-  characters: PropTypes.arrayOf(PropTypes.object).isRequired,
-};
 
 export default CharacterList;

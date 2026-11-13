@@ -1,5 +1,3 @@
-import PropTypes from "prop-types";
-
 function WeatherDisplay({ weatherData }) {
   if (!weatherData) {
     return <p>Enter a city to see the current weather.</p>;
@@ -20,9 +18,5 @@ function WeatherDisplay({ weatherData }) {
     </div>
   );
 }
-
-WeatherDisplay.propTypes = {
-  weatherData: PropTypes.object,
-};
 
 export default WeatherDisplay;
