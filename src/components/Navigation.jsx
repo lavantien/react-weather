@@ -10,7 +10,6 @@ function Navigation({ currentPage, onPageChange }) {
         <li>
           <NavLink
             to="/"
-            activeClassName="text-blue-500 underline"
             className={`px-2 py-1 rounded hover:bg-gray-700 ${
               currentPage === "todo" ? "text-blue-500 underline" : ""
             }`}
@@ -22,7 +21,6 @@ function Navigation({ currentPage, onPageChange }) {
         <li>
           <NavLink
             to="/weather"
-            activeClassName="text-blue-500 underline"
             className={`px-2 py-1 rounded hover:bg-gray-700 ${
               currentPage === "weather" ? "text-blue-500 underline" : ""
             }`}
@@ -34,7 +32,6 @@ function Navigation({ currentPage, onPageChange }) {
         <li>
           <NavLink
             to="/star-wars"
-            activeClassName="text-blue-500 underline"
             className={`px-2 py-1 rounded hover:bg-gray-700 ${
               currentPage === "star-wars" ? "text-blue-500 underline" : ""
             }`}
